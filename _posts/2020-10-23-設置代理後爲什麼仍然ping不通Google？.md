@@ -28,7 +28,7 @@ tags:
 >
 
 ​	現在我們知道了：SOCKS是工作在表示層與傳輸層之間——即會話層，那麼ping命令是如何工作的？
->[《ping @ Wikipedia》](https://zh.wikipedia.org/zh-hk/Ping)
+>[《Ping @ Wikipedia》](https://zh.wikipedia.org/zh-hk/Ping)
 >
 > ​	ping（呯）是一種電腦網絡工具，用來測試封包能否透過IP協定到達特定主機。ping的運作原理是向目標主機傳出一個**ICMP**的請求回顯封包，並等待接收回顯回應封包。程式會按時間和成功響應的次數估算遺失封包率（丟包率）和封包往返時間（網絡時延，Round-trip delay time）。
 >
