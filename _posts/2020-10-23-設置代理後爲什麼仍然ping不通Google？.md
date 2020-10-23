@@ -1,19 +1,19 @@
 ---
-layout:	post
+layout:     post
 title:      設置代理後爲什麼仍然ping不通Google？
-subtitle:	衆所周知，由於GFW的封鎖在印度等國不能直連Google，但爲什麼掛上代理可以通過瀏覽器訪問後仍然ping不通呢？
-date:	2020-10-23
-author:	y1
+subtitle:   衆所周知，由於GFW的封鎖在印度等國不能直連Google，但爲什麼掛上代理可以通過瀏覽器訪問後仍然ping不通呢？
+date:       2020-10-23
+author:     y1
 header-img: img/110474.jpg
-catelog:	false
+catalog: true
 tags:
-	- linux
-	- network
+    - OS
+    - Network
 ---
 
 # 設置代理後爲什麼仍然ping不通Google？
 
-### 衆所周知，由於GFW的封鎖在印度等國不能直連Google，但爲什麼掛上代理可以通過瀏覽器訪問後仍然ping不通呢？
+## 衆所周知，由於GFW的封鎖在印度等國不能直連Google，但爲什麼掛上代理可以通過瀏覽器訪問後仍然ping不通呢？
 
 ​	比較流行的代理工具比如Shadowsocks、ShadowsocksR、V2ray,連上後都ping不通不存在的網站，但是可以通過http/https進行訪問，這是怎麼回事呢？要明白其原因，先查一下這些代理工具的工作原理：
 
