@@ -1,7 +1,7 @@
 ---
 layout:	post
-title:	設置代理後爲什麼仍然ping不通Google？
-subtitle:	由於GFW的封鎖在牆國不能直連Google，但爲什麼掛上代理可以通過瀏覽器訪問後仍然ping不通呢？
+title:      設置代理後爲什麼仍然ping不通Google？
+subtitle:	衆所周知，由於GFW的封鎖在印度等國不能直連Google，但爲什麼掛上代理可以通過瀏覽器訪問後仍然ping不通呢？
 date:	2020-10-23
 author:	y1
 header-img: img/110474.jpg
