@@ -54,6 +54,7 @@ caught signal 15, but do nothing.
 
 ```c++
 #include <signal.h>
+
 #include <stdio.h>
 
 static bool stop = false;
