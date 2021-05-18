@@ -20,7 +20,7 @@ tags:
 > - Kill: *SIGKILL* - The SIGKILL signal forces the process to **stop executing immediately**. The program **cannot ignore** this signal. This process does not get to clean-up either.
 > - Terminate: *SIGTERM* - *This signal requests a process to stop running.* **This signal can be ignored.** The process is given time to gracefully shutdown. When a program  gracefully shuts down, that means it is given time to save its progress  and release resources. In other words, it is not forced to stop. SIGINT  is very similar to SIGTERM.
 
-​	Terminate信号是捕获并处理的，可以捕获后什么也不做，比如这样
+​	Terminate信号是能捕获并处理的，可以捕获后什么也不做，比如这样
 
 ```c++
 #include <signal.h> 
