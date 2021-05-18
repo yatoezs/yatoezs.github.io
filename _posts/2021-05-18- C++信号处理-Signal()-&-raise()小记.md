@@ -23,9 +23,9 @@ tags:
 ​	Terminate信号是捕获并处理的，可以捕获后什么也不做，比如这样
 
 ```c++
-#include <signal.h>
-#include <stdio.h>
-#include <unistd.h>
+#include <signal.h> 
+#include <stdio.h> 
+#include <unistd.h> 
 
 static void signalHandle(int sig) {
   printf("caught signal %d, but do nothing.\n", sig);
