@@ -3,6 +3,7 @@ title:		C/C++调用Shell system()与popen()
 date:		2021-06-17
 author:	y1
 header-img: img/header_of_index.jpg
+catalog: true
 tags:
     - C++
     - C
@@ -58,9 +59,9 @@ tags:
 >                 - w - Write data as I/P to command.
 > ```
 
-​	`popen()`调用`fork()`创建子进程，由子进程调用shell命令，根据type值建立管道连接至紫禁城的标准输入/输出流，`popen()`返回一个FILE指针，然后就可以进行读写操作了。返回值是个标准I/Ol流，关闭FILE要用`pclose()`进行。
+​	`popen()`调用`fork()`创建子进程，由子进程调用shell命令，根据type值建立管道连接至子进程的标准I/O流，`popen()`返回一个FILE指针，然后就可以进行读写操作了。返回值是个标准I/Ol流，关闭FILE要用`pclose()`进行。
 
-## 示例
+## 实作
 
 ```c++
 #include <cstring>
